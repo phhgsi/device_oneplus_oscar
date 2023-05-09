@@ -44,6 +44,11 @@ PRODUCT_PACKAGES += \
     com.android.nfc_extras \
     Tag
 
+
+# Display
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/display_id_4630946253560767361.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946253560767361.xml
+
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.ese.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.nfc.ese.xml \
     frameworks/native/data/etc/android.hardware.nfc.hce.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.nfc.hce.xml \
