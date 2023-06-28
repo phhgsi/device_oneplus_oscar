@@ -37,6 +37,10 @@ PRODUCT_SYSTEM_PROPERTIES += \
 PRODUCT_PACKAGES += \
     init.oplus.overlay.rc
 
+# FaceSense
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.face.sense_service.camera_id=1
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc-service.nxp \
