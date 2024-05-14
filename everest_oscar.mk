@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021-2023 The Derpfest Project
+# Copyright (C) 2024 The Project Everest
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -11,10 +11,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from oscar device
 $(call inherit-product, device/oneplus/oscar/device.mk)
 
-# Inherit some common Derpfest stuff.
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
+# Inherit some common everestfest stuff.
+$(call inherit-product, vendor/everest/config/common_full_phone.mk)
 
-PRODUCT_NAME := derp_oscar
+# Everest Flags 
+EVEREST_MAINTAINER := phhgsi
+TARGET_SUPPORTS_BLUR := true
+WITH_GAPPS := true
+
+# Device Specifications 
+PRODUCT_NAME := everest_oscar
 PRODUCT_DEVICE := oscar
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus

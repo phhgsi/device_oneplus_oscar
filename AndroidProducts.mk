@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2024 The Project Everest
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_oscar.mk
+    $(LOCAL_DIR)/everest_oscar.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_oscar-user \
-    derp_oscar-userdebug \
-    derp_oscar-eng
+    everest_oscar-user \
+    everest_oscar-userdebug \
+    everest_oscar-eng

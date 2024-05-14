@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021-2023 The LineageOS Project
+# Copyright (C) 2024 The Project Everest
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -61,7 +61,7 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-derp
+    $(LOCAL_PATH)/overlay-everest
 
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
