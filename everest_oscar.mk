@@ -14,12 +14,12 @@ $(call inherit-product, device/oneplus/oscar/device.mk)
 # Inherit some common everestfest stuff.
 $(call inherit-product, vendor/everest/config/common_full_phone.mk)
 
-# Everest Flags 
-EVEREST_MAINTAINER := phhgsi
-TARGET_SUPPORTS_BLUR := true
-TARGET_INCLUDE_PIXEL_LAUNCHER := false
+# Everest Maintainer Stuff
 EVEREST_BUILD_TYPE := OFFICIAL
-WITH_GAPPS := true
+EVEREST_MAINTAINER := phhgsi
+TARGET_HAS_UDFPS := true
+EXTRA_UDFPS_ANIMATIONS := true
+TARGET_INCLUDE_PIXEL_LAUNCHER := false
 
 # Device Specifications 
 PRODUCT_NAME := everest_oscar
