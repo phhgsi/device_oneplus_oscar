@@ -17,8 +17,6 @@ $(call inherit-product, vendor/everest/config/common_full_phone.mk)
 # Everest Maintainer Stuff
 EVEREST_BUILD_TYPE := OFFICIAL
 EVEREST_MAINTAINER := phhgsi
-TARGET_HAS_UDFPS := true
-EXTRA_UDFPS_ANIMATIONS := true
 TARGET_INCLUDE_PIXEL_LAUNCHER := false
 
 # Device Specifications 
