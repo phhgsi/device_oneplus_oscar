@@ -18,6 +18,7 @@ $(call inherit-product, vendor/everest/config/common_full_phone.mk)
 EVEREST_MAINTAINER := phhgsi
 TARGET_SUPPORTS_BLUR := true
 TARGET_INCLUDE_PIXEL_LAUNCHER := false
+EVEREST_BUILD_TYPE := OFFICIAL
 WITH_GAPPS := true
 
 # Device Specifications 
