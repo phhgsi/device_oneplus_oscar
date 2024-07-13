@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_oscar.mk
+    $(LOCAL_DIR)/infinity_oscar.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_oscar-user \
-    derp_oscar-userdebug \
-    derp_oscar-eng
+    infinity_oscar-user \
+    infinity_oscar-userdebug \
+    infinity_oscar-eng
